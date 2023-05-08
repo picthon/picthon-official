@@ -220,7 +220,7 @@ async def _(event):
 
                 HM = HM.replace(normal, namefont)
 
-        bio = f"𝘀𝘆𝘁𝗵𝗼𝗻 |️ {HM}"
+        bio = f"picthon |️ {HM}"
 
         LOGS.info(bio)
 
