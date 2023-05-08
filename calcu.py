@@ -22,7 +22,7 @@ def calc(num1, num2, fun):
         return "خطأ"
 
 
-@picthon1.on(events.NewMessage(outgoing=True, pattern=".احسب (.*)"))
+@picthon.on(events.NewMessage(outgoing=True, pattern=".احسب (.*)"))
 async def _(event):
     try:
         msg = ("".join(event.text.split(maxsplit=1)[1:])).split(" ", 2)
