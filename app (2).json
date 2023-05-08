@@ -1,0 +1,33 @@
+{"name":"PICTHON",
+
+"description":"اهلا بك في سورس بيكثون",
+
+
+"logo":"https://telegra.ph/%D9%81%D9%8A-%D8%A7%D9%84-05-05",
+
+
+"stack":"container",
+
+
+"repository":"https://t.me/PICTHON1",
+
+
+"keywords":["python","chatbot","telegrambot"],
+
+
+"website":"https://t.me/PICTHON1",
+
+
+"env":{"APP_ID":{"description":"الايـبـي ايــدي","value":"","required":true},
+
+
+"APP_HASH":{"description":"الايـبـي هــاش","value":"","required":true},
+
+
+"TERMUX":{"description":"كود تيرمكس","value":"","required":true},
+
+
+"TOKEN":{"description":"توكن البوت","value":"","required":true},
+
+
+"BOT_USERNAME":{"description":"يوزر البوت بدون ـ@ـ","value":"","required":true}}}
